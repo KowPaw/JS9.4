@@ -15,13 +15,13 @@ drawTree(9);
 
 // full Christmas tree
 function drawTree2(h) {
-	for (i = 0, k = h; i < h; i=i+2, k=k-2) {
+	for (i = 0, k = h; i < h; i = i+2, k = k-2) {
 		var star = '*';
 		var space = '';
-		for (j = 0; j < i; j=j+2) {
+		for (j = 0; j < i; j = j+2) {
 				star += '**';
 		}
-		for (m = 1; m < k/2+0.5; m++) {
+		for (m = 1; m < k/2 + 0.5; m++) {
 			space += ' ';
 		}
 		console.log(space+star);
