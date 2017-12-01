@@ -1,5 +1,10 @@
 // scripts.js
 
+var i;
+var j;
+var k;
+var m;
+
 // half Chrismas tree
 function drawTree(h) {
 	for (i = 1; i <= h; i++) {
